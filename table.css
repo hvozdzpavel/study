@@ -1,0 +1,10 @@
+
+html, body {
+    margin: 5px;
+    height: 100%;
+    background: brown;
+}
+.app   {
+    height: 100px;
+    background: aqua;
+}
