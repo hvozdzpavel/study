@@ -1,10 +1,36 @@
-
 html, body {
-    margin: 5px;
+    margin: 0;
     height: 100%;
-    background: brown;
 }
-.app   {
+
+.app {
+    height: 100%;
+}
+
+.app>.header {
     height: 100px;
-    background: aqua;
+    background: aquamarine;
+}
+
+.app>.footer {
+    height: 50px;
+    background: bisque;
+}
+
+.app>.middle {
+    height: calc(100% - 100px - 50px);
+}
+
+.app>.middle>.left {
+    height: 100%;
+    width: 200px;
+    background: brown;
+    float: left;
+}
+
+.app>.middle>.right {
+    float: right;
+    height: 100%;
+    width: calc(100% - 200px);
+    background: chartreuse;
 }
