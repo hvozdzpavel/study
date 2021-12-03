@@ -1,36 +1,58 @@
+
 html, body {
     margin: 0;
     height: 100%;
+background: white;
 }
-
-.app {
+.app   {
     height: 100%;
 }
-
 .app>.header {
-    height: 100px;
-    background: aquamarine;
-}
 
+    height: 100px;
+    background: lightyellow;
+}
 .app>.footer {
     height: 50px;
-    background: bisque;
+    background: burlywood;
 }
-
 .app>.middle {
     height: calc(100% - 100px - 50px);
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
 }
+
 
 .app>.middle>.left {
     height: 100%;
-    width: 200px;
-    background: brown;
+    width: 15%;
+    background: #4949ab;
     float: left;
 }
-
 .app>.middle>.right {
     float: right;
     height: 100%;
-    width: calc(100% - 200px);
-    background: chartreuse;
+    width: 10%;
+    background: #cbd7e1;
+}
+.app>.middle>.center {
+    height: 100%;
+    width: 75%;
+    background: #f0edf1;
+    display: inline-block;
+
+}
+
+td {
+    border: 1px solid grey;
+}
+.app>.middle>.left h4 {
+ color: #cbd7e1;
+}
+.qwert {
+    
 }
